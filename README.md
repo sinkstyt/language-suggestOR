@@ -33,7 +33,7 @@ _In order to practice and apply the tools from the Epicodus Week 1 and Week 2 cu
 5. _more optional software:_ a terminal, shell, or bash system with which one might command git to do his/her/their bidding
 
 **To Put This Project Right Onto Your Machine**
-1. Navigate to the GitHub repository that holds the component files: <a href="https://github.com/sinkstyt/language-suggestOR"></a>
+1. Navigate to the GitHub repository that holds the component files: [Tyler's language-suggestOR repository](https://github.com/sinkstyt/language-suggestOR)
 2. *briefly* peruse this README.md just to see what you might be getting into
 3. Click "CLONE" - a button near the top right of the GitHub repository's page.
 4. Launch and use your terminal, z-shell, or bash to first navigate to where this project will live on your device (eg. Users/{YOUR_USER_ID}/desktop, in case you want it in your face every time your operating system plops you on your desktop)
@@ -56,7 +56,7 @@ _No cross-browser bugs are anticipated, but please let the project's maintainer(
 
 ## Support and Contact
 
-_Creator of this project welcomes additions, suggestions, comments, and queries to be directed towards <a href=”mailto:tyler.sinks@gmail.com">Tyler Sinks</a>_
+_Creator of this project welcomes additions, suggestions, comments, and queries to be directed towards <tyler.sinks@gmail.com>_
 _I welcome and encourage additions to this code. More specifically, I would be delighted to get commentary on the scripts.js file_
 
 ## Technologies Used
