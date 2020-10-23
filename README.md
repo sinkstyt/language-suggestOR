@@ -1,5 +1,4 @@
-
-<img src="http://sinkstyt.github.io/language-selectOR/img/gems.jpg" alt="image of polished gems" width="910" border-radius="25%">
+![An image of polished gems](img/gems.jpg)
 
 # _Programming Language Selector Quiz_
 
