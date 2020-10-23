@@ -12,60 +12,17 @@
 <body>
   <div class="container">
     <div class="jumbotron">
-      <h1>Page Title</h1>
+      <h1>Which programming language should I pick up next?</h1>
       <h5>a brief disclaimer: our legal advisor advises me to admonish you to <strong>not</strong> use this tool for professional advice. This survey and its results are intended as only a gentle guide. Please talk with your career counselor for serious professional guidance.</h5>
     </div>
-
-<!-- <div class="preference">
-       <label for="cheese">Do you like cheese?</label>
-       <input type="checkbox" name="cheese" id="cheese">
-    </div> -->
-
-    <h2>Instructions</h2>
-    <p>Please answer each question with what occurs to you at first impression to achieve most accurate results. Note, only the question about your favorite movies allows for more than one answer. Press the submit button once all questions have been answered.</p>
-    <!--
-      <form id="calculator">
-        <div class="form-group">
-          <label for="input1">1st number:</label>
-          <input id="input1" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="input2">2nd number:</label>
-          <input id="input2" class="form-control" type="text">
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="add" checked>
-            add
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="subtract">
-            subtract
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="multiply">
-            multiply
-          </label>
-        </div>        
-        <div class="radio">
-          <label>
-            <input type="radio" name="operator" value="divide">
-            divide
-          </label>
-        </div>        
-        <button type="submit" class="btn">Go!</button>
-      </form>
-    -->
-    
-    
-    <div>
-      <form id="lang-quiz">
+    <div class="intructions">
+      <h2>Instructions for deciding between learning Ruby, JavaScript, or Python</h2>
+      <p>Please answer each question with what occurs to you at first impression to achieve most accurate results. Note, only the question about your favorite movies allows for more than one answer. Press the submit button once all questions have been answered.</p>
+    </div>  
 <!-- Question 1 -->
-        <h2>Are you hoping to learn a programming language for fun or to advance your career?</h2>
+    <form>  
+      <div class="career-question">  
+        <h2>Complete this sentence. I want to learn this next language...</h2>
         <div class="radio">
           <label>
             <input type="radio" name="career" value="for-fun" checked>
@@ -83,8 +40,10 @@
             <input type="radio" name="career" value="good-student">
             for fun but with an eye towards learning best practices. <em>(just in case)</em>
           </label>
-        </div>        
+        </div>
+      </div>       
 <!-- Question 2 -->
+      <div class="control-question">
         <h2>Are you a person who prefers to be in control at all times or enjoys the thrill of leaving things to chance?</h2>
         <div class="radio">
           <label>
@@ -98,106 +57,110 @@
             Throw my cautions to the birds.
           </label>
         </div>
+      </div>
 <!-- Question 3 -->
+      <div class="mb-question"  
         <h2>On the Myers-Briggs Personality Inventory, which profile most closely resembles yours?</h2>
         <h5>To ascertain which profile best matches yours, you could try <a href="https://16types.bz/en">this one</a>, which <em span="bg-info">I think</em> is free.</h5>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ISTJ">
+            <input type="radio" name="mb-personality" value="ISTJ">
             ISTJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ISTP">
+            <input type="radio" name="mb-personality" value="ISTP">
             ISTP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ESTP">
+            <input type="radio" name="mb-personality" value="ESTP">
             ESTP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ESTJ">
+            <input type="radio" name="mb-personality" value="ESTJ">
             ESTJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ISFJ">
+            <input type="radio" name="mb-personality" value="ISFJ">
             ISFJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ISFP">
+            <input type="radio" name="mb-personality" value="ISFP">
             ISFP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ESFP">
+            <input type="radio" name="mb-personality" value="ESFP">
             ESFP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ESFJ">
+            <input type="radio" name="mb-personality" value="ESFJ">
             ESFJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="INFJ">
+            <input type="radio" name="mb-personality" value="INFJ">
             INFJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="INFP">
+            <input type="radio" name="mb-personality" value="INFP">
             INFP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ENFP">
+            <input type="radio" name="mb-personality" value="ENFP">
             ENFP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ENFJ">
+            <input type="radio" name="mb-personality" value="ENFJ">
             ENFJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="INTJ">
+            <input type="radio" name="mb-personality" value="INTJ">
             INTJ
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="INTP">
+            <input type="radio" name="mb-personality" value="INTP">
             INTP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ENTP">
+            <input type="radio" name="mb-personality" value="ENTP">
             ENTP
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="MBpersonality" value="ENTJ">
+            <input type="radio" name="mb-personality" value="ENTJ">
             ENTJ
           </label>
         </div>
+      </div>
 <!-- Question 4 -->
+      <div class="movie-question"  
         <h2>Choose any combination of your favorite movies from these possibilities:</h2>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="wizard-of-oz">
@@ -223,29 +186,31 @@
           <input type="checkbox" class="form-check-input" id="13th-warrior">
           <label class="form-check-label" for="13th-warrior">The Thirteenth Warrior (1999)</label>
         </div>
+      </div>
 <!-- Question 5 -->
+      <div class="lean-question"
         <h2>Towards which language were you leaning before you started this quiz?</h2>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-          <label class="form-check-label" for="exampleRadios1">
-            Default radio
+          <input class="form-check-input" type="radio" name="lang-lean" id="ruby" value="1">
+          <label class="form-check-label" for="ruby">
+            Ruby
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-          <label class="form-check-label" for="exampleRadios2">
-            Second default radio
+          <input class="form-check-input" type="radio" name="lang-lean" id="javascript" value="2">
+          <label class="form-check-label" for="javascript" checked>
+            JavaScript
           </label>
         </div>
         <div class="form-check">
-          <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-          <label class="form-check-label" for="exampleRadios3">
-            Disabled radio
+          <input class="form-check-input" type="radio" name="lang-lean" id="python" value="3">
+          <label class="form-check-label" for="python">
+            Python
           </label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit my answers</button>
-      </form>
-    </div>
+      </div>
+      <button type="submit" class="btn btn-primary">Tell me my best next language!</button>
+    </form>
   </div>
 </body>
 </html>
