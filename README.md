@@ -12,8 +12,7 @@
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
-In order to practice the tools from the Epicodus Week 1 and Week 2 curriculum, I, a current student at said school, was tasked with the creation of a page of this nature._
+_In order to practice and apply the tools from the Epicodus Week 1 and Week 2 curriculum, I, a current student at said school, was tasked with the creation of a page of this nature._
 **This project page**
 * uses tidbits of both Bootstrap and jQuery to achieve its look and functionality
 * limits possible suggested coding languages to learn to Python, JavaScript, and Ruby
@@ -39,8 +38,8 @@ In order to practice the tools from the Epicodus Week 1 and Week 2 curriculum, I
 3. Click "CLONE" - a button near the top right of the GitHub repository's page.
 4. Launch and use your terminal, z-shell, or bash to first navigate to where this project will live on your device (eg. Users/{YOUR_USER_ID}/desktop, in case you want it in your face every time your operating system plops you on your desktop)
 5. Use the following commands to bring on down this gem of a project:
-* `git clone {HERES_WHERE_YOU_PASTE_IN_THE_HTTP_URL_SO_NICELY_PUT_ONTO_YOUR_CLIPBOARD_WITH_THAT_CLIPBOARD_BUTTON_WHICH_SHOWS_UP_after_YOU_HAVE_HIT_CLONE_ON_THE_GITHUB_REPOSITORY_PAGE}
-* press <ENTER>
+* `git clone {HERES_WHERE_YOU_PASTE_IN_THE_HTTP_URL_SO_NICELY_PUT_ONTO_YOUR_CLIPBOARD_WITH_THAT_CLIPBOARD_BUTTON_WHICH_SHOWS_UP_after_YOU_HAVE_HIT_CLONE_ON_THE_GITHUB_REPOSITORY_PAGE}`
+* press ENTER or RETURN
 * then, once your terminal informs you this download has completed, launch the whole thing with your text editor of choice. An example terminal command:
 `code .` (this launches the whole kaboodle of files and folders in Visual Studio Code if you have configured your shell/terminal/bash to launch said text editor with command `code`)
 
@@ -62,7 +61,7 @@ _I welcome and encourage additions to this code. More specifically, I would be d
 
 ## Technologies Used
 
-_Bootstrap assisted with some **most** of the styling_
+_Bootstrap assisted with ~~some~~ **most** of the styling_
 _jQuery assisted with selecting page content and have the page actually do something_
 
 ### License
