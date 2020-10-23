@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,19 +25,19 @@
         <h2>Complete this sentence. I want to learn this next language...</h2>
         <div class="radio">
           <label>
-            <input type="radio" name="career" value="for-fun" checked>
+            <input type="radio" name="career" value="0" checked>
             for fun.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="career" value="for-career">
+            <input type="radio" name="career" value="3">
             for career advancement.
           </label>
         </div>
         <div class="radio">
           <label>
-            <input type="radio" name="career" value="good-student">
+            <input type="radio" name="career" value="2">
             for fun but with an eye towards learning best practices. <em>(just in case)</em>
           </label>
         </div>
@@ -61,7 +61,7 @@
 <!-- Question 3 -->
       <div class="mb-question"  
         <h2>On the Myers-Briggs Personality Inventory, which profile most closely resembles yours?</h2>
-        <h5>To ascertain which profile best matches yours, you could try <a href="https://16types.bz/en">this one</a>, which <em span="bg-info">I think</em> is free.</h5>
+        <h5>To ascertain which profile best matches yours, you could try <a href="https://16types.bz/en">this site which hosts a quiz</a>, which <em span="bg-info">I think</em> is free.</h5>
         <div class="radio">
           <label>
             <input type="radio" name="mb-personality" value="ISTJ">
@@ -209,7 +209,20 @@
           </label>
         </div>
       </div>
-      <button type="submit" class="btn btn-primary">Tell me what to learn!</button>
+<!-- Name Entry -->
+      <div class="name-fields">
+        <div class="form-group">
+          <label for="firstName">first name:</label>
+          <input type="text" class="form-control" id="firstName" placeholder="Willy">
+        </div>
+        <div class="form-group">
+          <label for="lastName">last name:</label>
+          <input type="text" class="form-control" id="lastName" placeholder="Wonka">
+        </div>
+      </div>
+<!-- Submit and Reset Buttons -->
+      <button type="submit" class="btn btn-primary" value="Submit">Tell me what to learn!</button>
+      <button type="reset" class="btn btn-primary" value="Reset">Clear my responses</button>
     </form>
 <!-- Results -->
     <div id="output">
