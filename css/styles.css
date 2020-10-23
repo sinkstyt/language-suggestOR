@@ -15,3 +15,8 @@ h2 {
 body {
   font-family: 'Source Serif Pro', serif;
 }
+div.name-fields h2#reminder-to-scroll {
+  margin-top: 0px;
+  padding: 12 px;
+  border: dotted double cornflowerblue;
+}
