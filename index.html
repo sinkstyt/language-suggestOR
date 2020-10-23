@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Programming Language SelectOR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@250&display=swap" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="js/jquery-3.5.1.js"></script>
@@ -13,11 +14,12 @@
   <div class="container">
     <div class="jumbotron">
       <h1>Which programming language should I pick up next?</h1>
-      <h5>a brief disclaimer: our legal advisor reminds you to <strong>not</strong> use this tool for professional advice. This survey and its results are intended as only a gentle guide. Please talk with your career counselor for serious professional guidance.</h5>
+      <h6 class="soften">a brief disclaimer: our legal advisor reminds you to <strong>not</strong> use this tool for professional advice. This survey and its results are intended as only a gentle guide. Please talk with your career counselor for serious professional guidance.</h5>
     </div>
     <div class="intructions">
       <img class="img-fluid rounded mx-auto d-block" src="img/ThreeLogos.png" alt="an image that includes a logo each for Ruby, JavaScript, and Python">
-      <h2>Instructions for deciding between learning</h2>
+      <h2>here lies a quiz to help you discern:</h2>
+      <h2>which language to learn next</h2>
       <table class="table">
         <thead class="thead-dark">
           <tr>
@@ -27,10 +29,10 @@
           </tr>
         </thead>
       </table>
-      <p>Please answer each question with what occurs to you at first impression to achieve most accurate results. Note, only the question about your favorite movies allows for more than one answer. Press the submit button once all questions have been answered.</p>
+      <p class="soften">Please answer each question with what occurs to you at first impression to achieve most accurate results. Note, only the question about your favorite movies allows for more than one answer. Press the submit button once all questions have been answered.</p>
     </div>  
-<!-- Question 1 -->
     <form>  
+<!-- Question 1 -->
       <div class="career-question">  
         <h2>Complete this sentence. I want to learn this next language...</h2>
         <div class="radio">
@@ -69,9 +71,9 @@
         </div>
       </div>
 <!-- Question 3 -->
-      <div class="mb-question"  
+      <div class="mb-question">
         <h2>On the Myers-Briggs Personality Inventory, which profile most closely resembles yours?</h2>
-        <h5>To ascertain which profile best matches yours, you could try <a href="https://16types.bz/en">this site which hosts a quiz</a>, which <em span="bg-info">I think</em> is free.</h5>
+        <h6 class="soften">To ascertain which profile best matches yours, you could try <a href="https://16types.bz/en">this site</a> which hosts a quiz, which <em span="bg-info">I think</em> is free.</h5>
         <div class="radio">
           <label>
             <input type="radio" name="mb-personality" value="ISTJ">
@@ -170,7 +172,7 @@
         </div>
       </div>
 <!-- Question 4 -->
-      <div class="movie-question"  
+      <div class="movie-question">
         <h2>Choose any combination of your favorite movies from these possibilities:</h2>
         <div class="form-group form-check">
           <input type="checkbox" class="form-check-input" id="wizard-of-oz">
@@ -198,7 +200,7 @@
         </div>
       </div>
 <!-- Question 5 -->
-      <div class="lean-question"
+      <div class="lean-question">
         <h2>Towards which language were you leaning before you started this quiz?</h2>
         <div class="form-check">
           <input class="form-check-input" type="radio" name="lang-lean" id="ruby" value="1">
@@ -221,6 +223,7 @@
       </div>
 <!-- Name Entry -->
       <div class="name-fields">
+        <h4 class="soften">Personalize your results if you like:</h4>
         <div class="form-group">
           <label for="firstName">first name:</label>
           <input type="text" class="form-control" id="firstName" placeholder="Willy">
