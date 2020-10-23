@@ -40,3 +40,9 @@ $(document).ready(function() {
     event.preventDefault();
   })
 })
+
+$(document).ready(function() {
+  $("button#hider").click(function() {
+    $("div#output").hide("slow");
+  });
+})
