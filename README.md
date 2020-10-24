@@ -45,7 +45,7 @@ _In order to practice and apply the tools from the Epicodus Week 1 and Week 2 cu
 
 **Alternatively,**
 1. Just web-browse _Remember when we used to say, 'surf'?_ over to the index page. And here is a link you could click now to do just that:
-<a href="http://sinkstyt.github.io/language-suggestOR/index.html"></a>
+[Take me to my coding language destiny via quiz](https://sinkstyt.github.io/language-suggestOR/index.html)
 
 ## No additional codebases or libraries need to be installed to view the page nicely
 
