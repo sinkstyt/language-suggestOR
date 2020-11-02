@@ -33,15 +33,9 @@ $(document).ready(function() {
     $("span.result").text(outputLang);
     $("#output").show();
   })
-})
-
-$(document).ready(function() {
   $("form").reset(function() {
     event.preventDefault();
   })
-})
-
-$(document).ready(function() {
   $("button#hider").click(function() {
     $("div#output").hide("slow");
   });
